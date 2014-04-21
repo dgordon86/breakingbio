@@ -1,0 +1,31 @@
+.kopa-widget-wrap{
+    margin-top: 10px;
+}
+
+.kopa-widget-control-wrap{
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.kopa-widget-control-wrap label.kopa-ui-label{
+    display: inline-block;
+    margin-bottom: 5px;    
+}
+
+.kopa-widget-control-wrap label.kopa-ui-label.kopa-ui-checkbox-label{
+    width: auto !important;
+}
+
+.kopa-widget-control-wrap input[type=text],
+.kopa-widget-control-wrap input[type=email],
+.kopa-widget-control-wrap input[type=number],
+.kopa-widget-control-wrap input[type=url],
+.kopa-widget-control-wrap select,
+.kopa-widget-control-wrap textarea{
+    width: 100%;
+}
+
+div.widget-made-by-kopa{    
+    background: url('../images/logo.png') no-repeat 7px center transparent;
+    text-indent: 15px;
+}

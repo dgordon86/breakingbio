@@ -1,0 +1,142 @@
+@font-face {
+	font-family: 'KPSocial';
+	src:url('fonts/KPSocial.eot');
+	src:url('fonts/KPSocial.eot?#iefix') format('embedded-opentype'),
+		url('fonts/KPSocial.woff') format('woff'),
+		url('fonts/KPSocial.ttf') format('truetype'),
+		url('fonts/KPSocial.svg#KPSocial') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="kps-"], [class*=" kps-"] {
+	font-family: 'KPSocial';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.kps-google-drive:before {
+	content: "\e601";
+}
+.kps-flickr:before {
+	content: "\e60b";
+}
+.kps-picassa:before {
+	content: "\e607";
+}
+.kps-forrst:before {
+	content: "\e616";
+}
+.kps-deviantart:before {
+	content: "\e609";
+}
+.kps-steam:before {
+	content: "\e60a";
+}
+.kps-github:before {
+	content: "\e612";
+}
+.kps-yahoo:before {
+	content: "\e60d";
+}
+.kps-reddit:before {
+	content: "\e61a";
+}
+.kps-foursquare:before {
+	content: "\e613";
+}
+.kps-delicious:before {
+	content: "\e621";
+}
+.kps-youtube:before {
+	content: "\e617";
+}
+.kps-xing:before {
+	content: "\e61c";
+}
+.kps-stackexchange:before {
+	content: "\e603";
+}
+.kps-facebook:before {
+	content: "\e623";
+}
+.kps-google-plus:before {
+	content: "\e624";
+}
+.kps-pinterest:before {
+	content: "\e625";
+}
+.kps-tumblr:before {
+	content: "\e626";
+}
+.kps-linkedin:before {
+	content: "\e627";
+}
+.kps-dribbble:before {
+	content: "\e628";
+}
+.kps-stumbleupon:before {
+	content: "\e629";
+}
+.kps-lastfm:before {
+	content: "\e62a";
+}
+.kps-rdio:before {
+	content: "\e62b";
+}
+.kps-qq:before {
+	content: "\e62c";
+}
+.kps-instagram:before {
+	content: "\e62e";
+}
+.kps-evernote:before {
+	content: "\e62f";
+}
+.kps-skype:before {
+	content: "\e630";
+}
+.kps-renren:before {
+	content: "\e631";
+}
+.kps-sina-weibo:before {
+	content: "\e632";
+}
+.kps-picasa:before {
+	content: "\e633";
+}
+.kps-soundcloud:before {
+	content: "\e634";
+}
+.kps-behance:before {
+	content: "\e635";
+}
+.kps-smashing:before {
+	content: "\e637";
+}
+.kps-twitter:before {
+	content: "\e622";
+}
+.kps-flattr:before {
+	content: "\e600";
+}
+.kps-mixi:before {
+	content: "\e602";
+}
+.kps-dropbox:before {
+	content: "\e62d";
+}
+.kps-rss:before {
+	content: "\e604";
+}
+.kps-vimeo:before {
+	content: "\e614";
+}
