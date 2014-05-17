@@ -34,7 +34,7 @@ function kopa_front_after_setup_theme() {
         add_filter('post_class', 'kopa_post_class');
         add_filter('body_class', 'kopa_body_class');
         add_filter('cancel_comment_reply_link', 'kopa_cancel_comment_reply_link');
-        add_filter('wp_nav_menu_items', 'kopa_add_home_menuitem', 10, 2);
+        //add_filter('wp_nav_menu_items', 'kopa_add_home_menuitem', 10, 2);
         add_action('pre_get_posts', 'kopa_edit_archive_query');
         add_filter('kopa_blog_is_display_blog_post_format', 'kopa_blog_is_display_blog_post_format');
         add_filter('kopa_blog_thumbnail_position', 'kopa_blog_thumbnail_position');

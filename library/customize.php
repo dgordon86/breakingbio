@@ -201,7 +201,7 @@ class KopaCustomize {
                 $out .= sprintf('%s{%s}', $element, $tmp);
             }
 
-            printf('<style id="kopa-customize-style" type="text/css">%s</style>', $out);
+            //printf('<style id="kopa-customize-style" type="text/css">%s</style>', $out);
         }
 
         #PRINT CUSTOMIZE CSS (from theme options)

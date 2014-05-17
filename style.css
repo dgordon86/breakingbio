@@ -511,25 +511,37 @@ Header
 }
 
 .header-bottom {
-    border-top: 5px solid #222;
-    border-bottom: 5px solid #222;
+    /*border-top: 5px solid #222;
+    border-bottom: 5px solid #222;*/
+    background-color: #222222;
 }
 /*----- Main Menu -----*/
+
+#main-nav {
+ width:85%;   
+}
+#main-menu {
+ margin: 0;
+ text-align: center;
+
+}
 #main-menu > li {
     list-style: none;
-    float: left;
-    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-family: 'HelveticaNeue-CondensedBold', sans-serif;
     margin: 4px 0;
     padding: 0 12px;
     border-left: 1px solid #222;
     position: relative;
     z-index: 1000;
 }
-#main-menu > li:first-child {
+
+/*#main-menu > li:first-child {
     padding-left: 0px;
     border-left: none;
     margin: 1px 0;
-}
+}*/
+
 #main-menu > li > a {
     display: inline-block;
     font-size: 18px;
@@ -537,7 +549,7 @@ Header
     text-transform: uppercase;
     height: 21px;
     line-height: 21px;
-    color: #000;
+    color: #FFF;
 }
 #main-menu li.home-menu-icon {
     padding-right: 0;

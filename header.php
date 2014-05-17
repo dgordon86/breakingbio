@@ -12,7 +12,7 @@
         <div class="wrapper">
             <div class="kp-page-header">
                 <div class="header-top">
-                    <?php kopa_get_headline(); ?>
+                    <?//php kopa_get_headline(); ?>
 
                     <?php
                     if (has_nav_menu('top-nav')) {

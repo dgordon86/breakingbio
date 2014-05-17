@@ -4,7 +4,7 @@
  * *************************************************/
 
 define('KOPA_THEME_URL', 'http://kopatheme.com');
-define('KOPA_THEME_NAME', 'Passion');
+define('KOPA_THEME_NAME', 'Breaking Bio');
 define('KOPA_DOMAIN', 'passion');
 define('KOPA_OPT_PREFIX', 'pas_');
 define('KOPA_UPDATE_TIMEOUT', 21600);
