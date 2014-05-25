@@ -23,6 +23,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.kpf-menu-three:before {
+    content: "\e60d";   
+}
 .kpf-arrow-up:before {
 	content: "\e601";
 }
