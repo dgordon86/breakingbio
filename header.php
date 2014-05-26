@@ -72,7 +72,7 @@
                                 )
                         );
                         echo '<div id="mobile-menu">';
-                        printf('<span>%s</span>', __('Menu', kopa_get_domain()));
+                        printf('<span><img src="/wp-content/themes/breakingbio/images/menu.png" alt="Menu" /></span>');
                         wp_nav_menu(
                                 array(
                                     'theme_location' => 'primary-nav',

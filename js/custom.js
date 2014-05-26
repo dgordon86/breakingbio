@@ -344,6 +344,7 @@ jQuery(document).ready(function() {
         jQuery(this).find("ul").first().slideUp(100);
     });
 });
+
 jQuery(document).ready(function() {
     /**
      * BOOTSTRAP COLLAPSE
@@ -550,5 +551,27 @@ jQuery(document).ready(function() {
             }, 800);
             return false;
         });
+    });
+});
+
+/* top nav float */
+jQuery(document).ready(function() {
+    
+    var headerHeight = jQuery('div.kp-page-header').height();
+    
+    jQuery(function() {
+        jQuery(window).scroll(function() {
+             var mainNavigation = jQuery('div.header-bottom');
+            if (jQuery(this).scrollTop() > headerHeight) {
+                var wrapperWidth = jQuery('div.wrapper').width();
+                jQuery(mainNavigation).addClass('fixed-header');
+                jQuery(mainNavigation).width(wrapperWidth);
+            } else {
+                mainNavigation.width('inherit');
+                jQuery(mainNavigation).removeClass('fixed-header');
+                
+            }
+        });
+       
     });
 });
